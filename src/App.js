@@ -1,5 +1,5 @@
 import React from "react";
-import ApplicationItem from "./components/ApplicationItem";
+import Applications from "./components/Applications";
 
 function App() {
   const applications = [
@@ -21,20 +21,7 @@ function App() {
   return (
     <div>
 
-      <ApplicationItem
-        date={applications[0].date}
-        companyName={applications[0].companyName}
-        position={applications[0].position}
-        status={applications[0].status}
-        notes={applications[0].notes}
-      />
-      <ApplicationItem
-        date={applications[1].date}
-        companyName={applications[1].companyName}
-        position={applications[1].position}
-        status={applications[1].status}
-        notes={applications[1].notes}
-      />
+      <Applications items={applications} />
 
     </div>
   )
