@@ -1,5 +1,5 @@
 import React from "react";
-import Applications from "./components/Applications";
+import Applications from "./components/Applications/Applications";
 
 function App() {
   const applications = [
