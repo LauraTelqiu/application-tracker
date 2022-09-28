@@ -1,5 +1,6 @@
 import React from "react";
 import Applications from "./components/Applications/Applications";
+import NewApplication from "./components/NewApplication/NewApplication";
 
 function App() {
   const applications = [
@@ -20,7 +21,7 @@ function App() {
   ]
   return (
     <div>
-
+      <NewApplication />
       <Applications items={applications} />
 
     </div>
